@@ -1,4 +1,4 @@
-@relation jamesPattern1-weka.filters.unsupervised.attribute.Remove-R1
+@relation jamesTest
 
 @attribute ' TYPE_ACC0' numeric
 @attribute ' TYPE_ACC1' numeric
