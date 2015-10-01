@@ -24,7 +24,7 @@
 @attribute ' velocity_y' numeric
 @attribute ' pressure' numeric
 @attribute ' size' numeric
-@attribute ' mCurrentPattern' {'[Point(0, 1), Point(1, 2), Point(2, 1), Point(1, 0)]'}
+@attribute ' mCurrentPattern' {'[Point(0, 1), Point(1, 2), Point(2, 1), Point(1, 0)]', '[Point(0, 0), Point(1, 0), Point(2, 0), Point(1, 1), Point(0, 2)]', '[Point(0, 1), Point(1, 1), Point(2, 1), Point(2, 0), Point(1, 0), Point(0, 0)]', '[Point(1, 0), Point(1, 1), Point(0, 2), Point(0, 1)]'}
 @attribute ' Counter' numeric
 @attribute Name {Matt}
 @attribute Pattern {A,B,C,D}
