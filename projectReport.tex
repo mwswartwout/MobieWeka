@@ -8,9 +8,16 @@
 
 \section{Introduction of Algorithms}
 \subsection{J48}
+J48 is an implementation of the C4.5 algorithm. This algorithm builds decision trees to classify inputs. These decision trees check each attribute and calculate how well the data set can be split using that attribute. Once the best attribute for splitting has been decided, this is added as a decision node to the tree. This then moves onto the next feature and adds that node as a child of the tree based on the best split. Once all the splits have been determined, the final decision tree can be used to classify the data.
+ 
 \subsection{SVM}
+SVM stands for Support Vector Machine. The basis of this is that there should be a linear function that can separate the data set the best. There are an infinite number of possible functions that can separate the functions. Thus we look for the function that has the largest margin. This can be done by transposing the data into a higher dimensional space, which is often done by using the dot product. Once you've found the function with the highest margin, this can be used to classify the input data.
+
 \subsection{Naive Bayes}
+Naive Bayes is an classification algorithm based off applying Bayes' theorem and assuming independence between all of the labels. Bayes' theorem says that P(A|B) = P(A)P(B|A)/P(B). The input to Naive Bayes' is our data, which is represented as a vector of n features (x), and we are trying to calculate the probability that these features will result in a given class (C), e.g. P(C|x). This can be rewritten with Bayes' Theorem as P(C)P(x|C)/p(x). Each of these three probabilities can be easily calculated with the provided data set. Doing this over each of the n features included in x and we can obtain the probability that a certain set of features. 
+
 \subsection{RBF Network}
+RBF Network stands for Radial Basis Function Network. This is a type of neural network that can be used for classification tasks. The network is made of three layers: an input layer, a hidden layer with a non-linear activation function, and a linear output layer. The input vector is our vector with n features. This is given to every neuron in the input layer. Each neuron contains one of the vectors from the training set. It then outputs a value between 0 and 1 depending on how similar the two vectors are. Each node in the output layer represents one of the possible classification categories. Each output node compares the outputs from the activation functions and creates a score for that class. Looking at the value of the output nodes, the network can classify the input.
 
 \section{Data Preprocessing}
 
